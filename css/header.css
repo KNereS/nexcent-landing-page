@@ -1,0 +1,118 @@
+.header-section {
+    min-height: 100vh;
+    background-color: var(--background-color);
+}
+
+.header-section__navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5em 0;
+}
+
+.header-section__links {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+}
+
+.header-section__links li a {
+    color: var(--text);
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.header-section__buttons {
+    display: flex;
+    gap: 1em;
+}
+
+.header-section__buttons__button-sign-up {
+    padding: 0.5em 1em;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    color: var(--secondary);
+    background-color: var(--primary);
+    cursor: pointer;
+}
+
+.header-section__buttons__button-sign-up:hover {
+    background-color:var(--primary-darker);
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+
+.header-section__buttons__button-sign-up:not(:hover) {
+    background-color:var(--primary);
+    transform: scale(1);
+    transition: 0.2s ease-in-out;
+}
+
+.header-section__buttons__button-login {
+    border: none;
+    font-weight: 500;
+    background-color: transparent;
+    color: var(--primary);
+    cursor: pointer;
+}
+
+.header-section__buttons__button-login:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+
+.header-section__buttons__button-login:not(:hover) {
+    transform: scale(1);
+    transition: 0.2s ease-in-out;
+}
+
+.header-section__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+    gap: 3em;
+}
+
+.header-section__content__text {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.header-section__content__text button {
+    padding: 1em 2em;
+    width: 120px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    color: var(--secondary);
+    background-color: var(--primary);
+    cursor: pointer;
+    text-align: center;
+}
+
+.header-section__content__text h1 {
+    font-size: 56px;
+}
+
+.header-section__content__text p {
+    font-size: 16px;
+}
+
+
+.header-section__content__text h1,p {
+    color: var(--text);
+}
+
+.header-section__content__text h1 span{
+    color: var(--primary);
+}
+
+.header-section__content__image {
+    width: 50%;
+    max-height: 400px;
+}
