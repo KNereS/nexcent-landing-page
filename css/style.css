@@ -22,6 +22,9 @@
 /* New Marketing */
 @import url(new-marketing.css);
 
+/* Footer */
+@import url(footer.css);
+
 :root {
     --background: #F5F5F5;
     --primary: #4CAF4F;
