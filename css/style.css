@@ -16,6 +16,12 @@
 /* How to Design */
 @import url(how-to-design.css);
 
+/* Tim Smith Citation */
+@import url(tim-smith-citation.css);
+
+/* New Marketing */
+@import url(new-marketing.css);
+
 :root {
     --background: #F5F5F5;
     --primary: #4CAF4F;
