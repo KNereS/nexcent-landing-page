@@ -13,6 +13,9 @@
 /* Helping Local */
 @import url(helping-local.css);
 
+/* How to Design */
+@import url(how-to-design.css);
+
 :root {
     --background: #F5F5F5;
     --primary: #4CAF4F;

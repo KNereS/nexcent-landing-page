@@ -1,0 +1,21 @@
+.how-to-design {
+    display: flex;
+    justify-content: space-around;
+    padding: 3em;
+}
+
+.how-to-design__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    color: var(--text);
+}
+
+.how-to-design__text h2 {
+    font-size: 32px;
+}
+
+.how-to-design__image {
+    width: 30%;
+}
