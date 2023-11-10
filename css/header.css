@@ -1,6 +1,6 @@
 .header-section {
     min-height: 100vh;
-    background-color: var(--background-color);
+    background-color: var(--background);
 }
 
 .header-section__navigation {

@@ -1,0 +1,79 @@
+.our-clients {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text);
+    gap: 2em;
+    background-color: var(--secondary);
+}
+
+.our-clients__text {
+    text-align: center;
+}
+
+.our-clients__text h2 {
+    font-size: 32px;
+}
+
+.our-clients__text p {
+    font-size: 14px;
+}
+
+.our-clients__logos {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.who-is-suitable-for {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.who-is-suitable-for__text {
+    text-align: center;
+}
+
+.who-is-suitable-for__text h2 {
+    font-size: 32px;
+}
+
+.who-is-suitable-for__text p {
+    font-size: 14px;
+}
+
+.who-is-suitable-for__cards {
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+    gap: 2em;
+}
+
+.who-is-suitable-for__cards__items {
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: var(--secondary);
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px 0px #bdbdbd75;
+}
+
+.who-is-suitable-for__cards__items img {
+    width: 40px;
+}
+
+.who-is-suitable-for__cards__items h3 {
+    font-size: 16px;
+}
+
+.who-is-suitable-for__cards__items p {
+    font-size: 10px;
+}

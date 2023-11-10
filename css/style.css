@@ -4,8 +4,11 @@
 /* Header */
 @import url(header.css);
 
+/* Our Clients */
+@import url(our-clients.css);
+
 :root {
-    --background: #E0E0E0;
+    --background: #ECECEC;
     --primary: #4CAF4F;
     --primary-darker: #449c46;
     --secondary: #FFFFFF;
